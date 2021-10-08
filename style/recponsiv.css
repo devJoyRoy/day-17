@@ -1,0 +1,121 @@
+@media (max-width:1100px) {
+  .width-fix {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hader.calir {
+
+    padding-right: 20px;
+  }
+}
+@media (max-width:1000px) {
+  .hader-icon span {
+    font-size: 24px;
+  }
+  .hader-menu ul li a {
+    line-height: 70px;
+    font-size: 20px;
+  }
+
+}
+.hader-menu span{ display: none;}
+.hader-chakbox{
+  display: none;
+}
+@media(max-width:924px) {
+
+  .hader-menu {
+    width: 51%;
+  }
+  .hader-icon span {
+    font-size: 19px;
+    position: relative;
+    top: -26px;
+  }
+  .hader-icon img {
+    float: inherit;
+    width: 62px;
+  }
+  .hader-icon {
+    width: 100%;
+    text-align: center;
+  }
+  .hader-bott {
+    width: 200px;
+    position: absolute;
+    right: 24px;
+    text-align: right;
+    top: 39px;
+  }
+  .hader-menu ul {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  }
+  .hader-menu span {
+    font-size: 28px;
+    color: #6278df;
+    display: block;
+    position: relative;
+    top: -14px;
+    z-index: 10;
+    pointer-events: none;
+  }
+  .hader-bott a {
+    font-size: 19px;
+  }
+  .hader.calir {
+      margin-bottom: -8px;
+  }
+  .hader-menu .hader-chakbox:checked ~ ul{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  .hader-menu ul li {
+    position: relative;
+    display: block;
+    left: -204px;
+  }
+  .hader-chakbox {
+    width: 24px;
+    height: 14px;
+    opacity: 0;
+    position: relative;
+    top: 10px;
+    display: block;
+  }
+  .hader-menu span {     
+    font-size: 28px;
+    color: #6278df;
+    display: block;
+    position: relative;
+    top: -14px;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+
+
+
+
+}
+@media (max-width:821px) {
+  .hader-icon span {
+    font-size: 20px;
+  }
+  .hader-menu ul li a {
+    font-size: 18px;
+  }
+  .hader-bott a {
+    font-size: 18px;
+  }
+  .hader-menu ul li {
+    left: -176px;
+  }
+
+
+}
